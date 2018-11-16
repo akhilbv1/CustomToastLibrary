@@ -2,7 +2,7 @@
 ###### Usual Toast but with super powers!!! :muscle:
 ### A Fully Customised and Customisable Toast.
 
-| Type  | OutPut |
+| Type  | Output |
 | ------------- | ------------- |
 | Success  |![Alt text](https://github.com/akhilbv1/CustomToastLibrary/blob/master/app/sampledata/Success.png?raw=true "Success")|
 | Warning  |![Alt text](https://github.com/akhilbv1/CustomToastLibrary/blob/master/app/sampledata/Warning.png?raw=true "Warning")|
