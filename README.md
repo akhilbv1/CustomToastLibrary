@@ -1,6 +1,10 @@
-# Super Toast Library
+# Super Toast Library  
+
 ###### Usual Toast but with super powers!!! :muscle:
+
 ### A Fully Customised and Customisable Toast.
+
+![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-Super%20Toast-green.svg?style=flat )]( https://android-arsenal.com/details/1/7328 )
 
 | Type  | Output |
 | ------------- | ------------- |
@@ -39,3 +43,4 @@ repositories {
  - Add Animations
  
  ### All commits are welcomed!!
+
