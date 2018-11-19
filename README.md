@@ -33,10 +33,10 @@ repositories {
 | Method  | Paramter | Description |
 | ------------- | ------------- | ------------- |
 | makeDefaultToast()  | Context context,String message|Default Toast|
-| makeSuccessToast  |Context context,String message,int shouldShowIcon| Success Toast with message and icon visibility||
-| makeErrorToast  | Context context,String message, int shouldShowIcon|Error Toast with message and icon visibility|
-| makeWarningToast  |Context context, String message, int shouldShowIcon|Warning Toast with message and icon visibility|
-| makeInfoToast  |@NonNull Context context,  String message, int shouldShowIcon|Information Toast with message and icon visibility|
+| makeSuccessToast()  |Context context,String message,int shouldShowIcon| Success Toast with message and icon visibility||
+| makeErrorToast()  | Context context,String message, int shouldShowIcon|Error Toast with message and icon visibility|
+| makeWarningToast()  |Context context, String message, int shouldShowIcon|Warning Toast with message and icon visibility|
+| makeInfoToast()  |@NonNull Context context,  String message, int shouldShowIcon|Information Toast with message and icon visibility|
 
 ### Future Release Points
  - Provide Options for Custom Layouts
