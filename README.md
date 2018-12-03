@@ -18,6 +18,10 @@
 ```
 implementation 'com.github.akhilbv1:CustomToastLibrary:Tag'
 ```
+if this fails try
+```
+implementation 'com.github.akhilbv1:CustomToastLibrary:v1.0'
+```
 ### Add Jitpack to repositories in Project level Build.Gradle
 ```
 repositories {
