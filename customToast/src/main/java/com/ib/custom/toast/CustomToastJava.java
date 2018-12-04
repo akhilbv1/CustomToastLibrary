@@ -10,7 +10,10 @@ import android.graphics.drawable.GradientDrawable;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
+<<<<<<< HEAD:customToast/src/main/java/com/ib/custom/toast/CustomToastJava.java
 import android.util.DisplayMetrics;
+=======
+>>>>>>> 2e9f67ba5e97bb916d2e5acb5e5c4a7a1e7121a3:customToast/src/main/java/com/ib/custom/toast/CustomToast.java
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
