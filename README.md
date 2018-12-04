@@ -14,8 +14,8 @@
 | Information  |![Alt text](https://github.com/akhilbv1/CustomToastLibrary/blob/master/app/sampledata/Information.png?raw=true "Information")|
 | Default  |![Alt text](https://github.com/akhilbv1/CustomToastLibrary/blob/master/app/sampledata/Default.png?raw=true "Default")|
 
-### Gradle DepenDencies 
-# Please do check release notes for latest version.
+### Gradle Dependencies 
+#### Please do check release notes for latest version.
 ```
 implementation 'com.github.akhilbv1:CustomToastLibrary:v1.0'
 ```
