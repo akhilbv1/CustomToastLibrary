@@ -14,10 +14,9 @@
 | Information  |![Alt text](https://github.com/akhilbv1/CustomToastLibrary/blob/master/app/sampledata/Information.png?raw=true "Information")|
 | Default  |![Alt text](https://github.com/akhilbv1/CustomToastLibrary/blob/master/app/sampledata/Default.png?raw=true "Default")|
 
-### Gradle Dependencies 
-
-implementation 'com.github.akhilbv1:CustomToastLibrary:v1.0'
-# Please do check release notes for latest version.
+### Gradle DepenDencies 
+```
+implementation 'com.github.akhilbv1:CustomToastLibrary:Tag'
 ```
 ### Add Jitpack to repositories in Project level Build.Gradle
 ```
