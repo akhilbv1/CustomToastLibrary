@@ -1,3 +1,4 @@
+/*
 package com.lib.custom.toast;
 
 import android.os.Bundle;
@@ -6,25 +7,28 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+import com.ib.custom.toast.CustomToastView;
 
-import com.ib.custom.toast.CustomToast;
-
+*/
 /*
- * Sample App on How To Use Library
- */
+ * SampleToastActivity App on How To Use Library
+ *//*
 
-public class Sample extends AppCompatActivity implements View.OnClickListener {
+
+public class SampleToastActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout);
+        setContentView(R.layout.activity_sample_toast);
         initialiseViews();
     }
 
-    /**
+    */
+/**
      * initialise views
-     */
+     *//*
+
     private void initialiseViews() {
 
         Button btnDefault = findViewById(R.id.btnDefault);
@@ -44,32 +48,35 @@ public class Sample extends AppCompatActivity implements View.OnClickListener {
 
     }
 
-    /**
+    */
+/**
      *
      * @param view the view which has been clicked
-     */
+     *//*
+
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btnDefault:
-                CustomToast.makeText(this, Toast.LENGTH_SHORT,CustomToast.DEFAULT, "Toast is working",false).show();
+                CustomToastView.makeText(this, Toast.LENGTH_SHORT, "Toast is working",R.layout.toast).show();
                 break;
 
             case R.id.btnSuccess:
-                CustomToast.makeText(this, Toast.LENGTH_SHORT,CustomToast.SUCCESS,"Toast is working",false).show();
+                CustomToastView.makeText(this, Toast.LENGTH_SHORT, CustomToastView.SUCCESS,"Toast is working",false).show();
                 break;
 
             case R.id.btnError:
-                CustomToast.makeText(this, Toast.LENGTH_SHORT,CustomToast.ERROR,"Username is not valid",false).show();
+                CustomToastView.makeText(this, Toast.LENGTH_SHORT, CustomToastView.ERROR,"Username is not valid",false).show();
                 break;
 
             case R.id.btnWarning:
-                CustomToast.makeText(this, Toast.LENGTH_SHORT,CustomToast.WARNING,"Out Of Memory",false).show();
+                CustomToastView.makeText(this, Toast.LENGTH_SHORT, CustomToastView.WARNING,"Out Of Memory",false).show();
                 break;
 
             case R.id.btnInfo:
-                CustomToast.makeText(this, Toast.LENGTH_SHORT,CustomToast.INFO,"This is a customised Toast",false).show();
+                CustomToastView.makeText(this, Toast.LENGTH_SHORT, CustomToastView.INFO,"This is a customised Toast",false).show();
                 break;
         }
     }
 }
+*/

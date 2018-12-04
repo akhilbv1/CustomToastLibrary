@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">CustomToast</string>
+
+    <!--default messages-->
+    <string name="default_message">Default</string>
+    <string name="information_message">information</string>
+    <string name="warning_message">warning</string>
+    <string name="error_message">error</string>
+    <string name="success_message">Success</string>
+
 </resources>
