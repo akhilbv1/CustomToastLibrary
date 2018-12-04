@@ -1,26 +1,39 @@
+/*
 package com.ib.custom.toast;
 
+import android.animation.ObjectAnimator;
+import android.animation.PropertyValuesHolder;
+import android.animation.ValueAnimator;
+import android.app.Activity;
 import android.content.Context;
 import android.graphics.drawable.GradientDrawable;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
+import android.util.DisplayMetrics;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.ViewAnimator;
 
+*/
 /**
  * Custom Toast With All Possible Customisations.
- */
-public class CustomToast extends Toast {
+ *//*
 
-    /**
+public class CustomToastJava extends Toast {
+
+    */
+/**
      * Types of Toast message
-     */
+     *//*
+
 
     public static int WARNING = 1;
 
@@ -32,18 +45,21 @@ public class CustomToast extends Toast {
 
     public static int DEFAULT = 5;
 
-    public CustomToast(Context context) {
+
+    public CustomToastJava(Context context) {
         super(context);
     }
 
-    /**
+    */
+/**
      *
      * @param context context to initialise toast
      * @param duration duration of toast
      * @param type type toast
      * @param message message to show to user
      * @return toast with icons.
-     */
+     *//*
+
     public static Toast makeText(@NonNull Context context, int duration, int type, @Nullable String message) {
         Toast toast = new Toast(context);
         toast.setDuration(duration);
@@ -115,12 +131,14 @@ public class CustomToast extends Toast {
         return toast;
     }
 
-    /**
+    */
+/**
      *
      * @param context context to initialise toast.
      * @param message message to show to user.
      * @return default toast with out icons.
-     */
+     *//*
+
     public static Toast makeDefaultToast(@NonNull Context context, @NonNull String message) {
         Toast toast = new Toast(context);
         toast.setDuration(Toast.LENGTH_SHORT);
@@ -141,15 +159,17 @@ public class CustomToast extends Toast {
         return toast;
     }
 
-    /**
+    */
+/**
      *
      * @param context  context to initialise toast.
      * @param message message to show to user.
      * @param shouldShowIcon should icon be displayed.
      * @return success toast object.
-     */
+     *//*
+
     public static Toast makeSuccessToast(@NonNull Context context, @NonNull String message, int shouldShowIcon) {
-        Toast toast = new Toast(context);
+        final Toast toast = new Toast(context);
         toast.setDuration(Toast.LENGTH_SHORT);
 
         View customLayout = LayoutInflater.from(context).inflate(R.layout.custom_toast, (ViewGroup) null, false);
@@ -165,16 +185,19 @@ public class CustomToast extends Toast {
         imgType.setImageDrawable(context.getResources().getDrawable(R.drawable.ic_success));
 
         toast.setView(customLayout);
+
         return toast;
     }
 
-    /**
+    */
+/**
      *
      * @param context context to initialise toast
      * @param message message to show to user
      * @param shouldShowIcon should icon be displayed.
      * @return error toast object.
-     */
+     *//*
+
     public static Toast makeErrorToast(@NonNull Context context, @NonNull String message, int shouldShowIcon) {
         Toast toast = new Toast(context);
         toast.setDuration(Toast.LENGTH_SHORT);
@@ -195,13 +218,15 @@ public class CustomToast extends Toast {
         return toast;
     }
 
-    /**
+    */
+/**
      *
      * @param context context to initialise toast
      * @param message message to show to user
      * @param shouldShowIcon should icon be displayed.
      * @return warning toast object.
-     */
+     *//*
+
     public static Toast makeWarningToast(@NonNull Context context,@NonNull String message, int shouldShowIcon) {
         Toast toast = new Toast(context);
         toast.setDuration(Toast.LENGTH_SHORT);
@@ -223,13 +248,15 @@ public class CustomToast extends Toast {
         return  toast;
     }
 
-    /**
+    */
+/**
      *
      * @param context context to initialise toast.
      * @param message message to show to user.
      * @param shouldShowIcon should icon be displayed.
      * @return infomation toast object.
-     */
+     *//*
+
     public static Toast makeInfoToast(@NonNull Context context, @NonNull String message, int shouldShowIcon) {
         Toast toast = new Toast(context);
         toast.setDuration(Toast.LENGTH_SHORT);
@@ -250,7 +277,8 @@ public class CustomToast extends Toast {
         return toast;
     }
 
-    /**
+    */
+/**
      *
      * @param context  context to initialise toast.
      * @param duration duration of toast
@@ -258,7 +286,8 @@ public class CustomToast extends Toast {
      * @param message message to show to user.
      * @param shouldShowIcon should icon be displayed.
      * @return custom toast object with user specified customisations.
-     */
+     *//*
+
     public static Toast makeText(@NonNull Context context, int duration, int type, @Nullable String message,boolean shouldShowIcon) {
         Toast toast = new Toast(context);
         toast.setDuration(duration);
@@ -334,3 +363,4 @@ public class CustomToast extends Toast {
     }
 
 }
+*/
