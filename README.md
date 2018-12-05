@@ -18,8 +18,8 @@ Written Purely is Kotlin:heart:
 
 ### Gradle Dependencies 
 #### Please do check release notes for latest version.
-```
-implementation 'com.github.akhilbv1:CustomToastLibrary:v1.0'
+``` 
+      implementation 'com.github.akhilbv1:CustomToastLibrary:v1.0.2'
 ```
 ### Add Jitpack to repositories in Project level Build.Gradle
 ```
