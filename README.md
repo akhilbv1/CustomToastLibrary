@@ -1,5 +1,7 @@
 # Super Toast Library  
 
+Written Purely is Kotlin:heart:
+
 ###### Usual Toast but with super powers!!! :muscle:
 
 ### A Fully Customised and Customisable Toast.
@@ -39,8 +41,18 @@ repositories {
 | makeWarningToast()  |Context context, String message, int shouldShowIcon|Warning Toast with message and icon visibility|
 | makeInfoToast()  |@NonNull Context context,  String message, int shouldShowIcon|Information Toast with message and icon visibility|
 
+### How to add Custom Layout
+#### please make sure your Custom Layout Textview id is toastMessage other Exception will be thrown.
+```java
+    CustomToastView.makeText(this@Sample,Toast.LENGTH_SHORT,"Toast is working",R.layout.toast)
+```
+#### To show your layout without altering
+```java
+    CustomToastView.makeText(this@Sample,Toast.LENGTH_SHORT,R.layout.toast)
+```
+If direct call to makeText is popping any error then please use CustomToatView.build (name of companion object)
+
 ### Future Release Points
- - Provide Options for Custom Layouts
  - Add Animations
  
  ### All commits are welcomed!!
