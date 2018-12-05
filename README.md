@@ -1,4 +1,5 @@
-# Super Toast Library  
+# Super Toast Library  [![](https://jitpack.io/v/akhilbv1/CustomToastLibrary.svg)](https://jitpack.io/#akhilbv1/CustomToastLibrary)
+
 
 Written Purely is Kotlin:heart:
 
@@ -7,6 +8,7 @@ Written Purely is Kotlin:heart:
 ### A Fully Customised and Customisable Toast.
 
 ![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-Super%20Toast-green.svg?style=flat )]( https://android-arsenal.com/details/1/7328 )
+
 
 | Type  | Output |
 | ------------- | ------------- |
