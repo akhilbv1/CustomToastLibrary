@@ -1,7 +1,7 @@
 # Super Toast Library  [![](https://jitpack.io/v/akhilbv1/CustomToastLibrary.svg)](https://jitpack.io/#akhilbv1/CustomToastLibrary)
 
 
-Written Purely is Kotlin:heart:
+Written Purely in Kotlin:heart:
 
 ###### Usual Toast but with super powers!!! :muscle:
 
