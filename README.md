@@ -44,7 +44,7 @@ repositories {
 | makeInfoToast()  |@NonNull Context context,  String message, int shouldShowIcon|Information Toast with message and icon visibility|
 
 ### How to add Custom Layout
-#### please make sure your Custom Layout Textview id is toastMessage other Exception will be thrown.
+#### please make sure your Custom Layout Textview id is toastMessage otherwise Exception will be thrown.
 ```java
     CustomToastView.makeText(this@Sample,Toast.LENGTH_SHORT,"Toast is working",R.layout.toast)
 ```
